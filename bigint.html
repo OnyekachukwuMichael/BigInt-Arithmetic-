@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <h2>Simple BigInt Arithmetic</h2>
+   <p id="result"></p>
+   <script>
+      const num1 = 123n;
+      const num2 = 456n;
+
+      const sum = num1 + num2;
+      const product = num1 * num2;
+
+      document.addEventListener("DOMContentLoaded", function () {
+         document.getElementById("result").innerText = 
+			`Sum of ${num1} & ${num2} is ${sum} and their product: ${product}`;
+      });
+   </script>
+</body>
+</html>
